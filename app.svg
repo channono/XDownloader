@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆形 -->
+    <circle cx="256" cy="256" r="240" fill="#1DA1F2"/>
+    
+    <!-- 左侧：官方 X logo -->
+    <g transform="translate(96, 176) scale(6)">
+        <!-- 完整的 X 路径 -->
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" 
+              fill="white" opacity="0.9"/>
+    </g>
+    
+    <!-- 右侧：下载箭头和线条 -->
+    <g fill="white" transform="translate(296, 176)">
+        <!-- 向下箭头 -->
+        <path d="M60 0 L60 105 L20 65 L60 105 L100 65 L60 105 L60 0" 
+              stroke="white" stroke-width="18" fill="none"/>
+        
+        <!-- 底部接收线 -->
+        <path d="M0 120 L120 120" 
+              stroke="white" stroke-width="18" stroke-linecap="round"/>
+    </g>
+</svg>
